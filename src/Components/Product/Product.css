@@ -1,0 +1,31 @@
+.product{
+    display: flex;
+    padding: 5%;
+    border-bottom:1px solid lightgray;
+
+}
+.img-part{
+    width: 40%;
+    padding-right:2%;
+}
+.details-part{
+     width:60%;
+}
+.product-name{
+    color: blue;
+    font-weight:400;
+    
+}
+.cart-btn{
+    padding:2%;
+    background-color:goldenrod;
+    outline:none;
+    width:200px;
+    border:1px solid ghostwhite;
+    border-radius: 5%;
+    color:#fff;
+    
+}
+.cart-icon{
+    padding-right:10px;
+}
