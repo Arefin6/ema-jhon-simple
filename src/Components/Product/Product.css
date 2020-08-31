@@ -1,8 +1,7 @@
 .product{
     display: flex;
-    padding: 5%;
+    padding: 1rem;
     border-bottom:1px solid lightgray;
-
 }
 .img-part{
     width: 40%;
@@ -24,8 +23,13 @@
     border:1px solid ghostwhite;
     border-radius: 5%;
     color:#fff;
+    cursor: pointer;
     
 }
 .cart-icon{
     padding-right:10px;
+}
+.price{
+    color:#444;
+    font-weight:bold;
 }

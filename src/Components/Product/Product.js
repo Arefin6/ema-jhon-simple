@@ -12,12 +12,12 @@ const Product = (props) => {
             </div>
             <div className="details-part">
             <h4 className="product-name">{name}</h4>
-            <br/>
-            <p><small>by:{seller}</small></p>
-            <br/>
-            <p>${price}</p>
+            
+            <p><small>by:<span className="price">{seller}</span></small></p>
+            
+            <p className="price">${price}</p>
 
-              <p><small>only {stock} left in stock Hurry Up!</small></p>
+              <p><small>Only {stock} left in stock Hurry Up!</small></p>
               <button className="cart-btn" onClick={()=> props.handleAddProduct (props.product)}>
                   <FontAwesomeIcon className="cart-icon" icon={faShoppingCart}/> Add To Cart</button>
             </div>
