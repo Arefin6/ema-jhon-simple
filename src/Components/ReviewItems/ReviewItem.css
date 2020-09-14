@@ -1,0 +1,24 @@
+.remove-btn{
+    padding:1rem;
+    background-color:#f03b3b;
+    outline:none;
+    width:200px;
+    border:1px solid ghostwhite;
+    border-radius: 5%;
+    color:#fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.review-items{
+    padding:1rem;
+    display:flex;
+   
+
+}
+.product-wrap{
+    width:60%;
+    border-bottom:1px solid lightgray;
+    margin-bottom:5px;
+    margin-left:100px;
+    border-right:1px solid lightgray;
+}

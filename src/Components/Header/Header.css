@@ -15,3 +15,16 @@ nav a{
 nav a:hover{
     background-color:lightgray;
 }
+ .signOut-btn{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background-color:black;
+    font-size: 20px;
+    cursor: pointer;
+}
+.signOut-btn:hover{
+    background-color:lightgray ;
+}
