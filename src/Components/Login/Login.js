@@ -47,7 +47,8 @@ const Login = () => {
             photo:photoURL
           }
           setUser(userData);
-          console.log(res);
+          setLoggedInUser(userData);
+          history.replace(from);
         })
         .catch(err => console.log(err))
   }
@@ -103,7 +104,7 @@ const Login = () => {
        setUser(newUserInfo);
        setLoggedInUser(newUserInfo);
        history.replace(from);
-       console.log("signed in success",res.user);
+     
          
       })
       .catch(function(error) {
